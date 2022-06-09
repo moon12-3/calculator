@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="계산할 값을 입력하세요."
+        android:textSize="26sp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="첫 번째 값"/>
+    <EditText
+        android:id="@+id/first_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex) 1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="두 번째 값"/>
+    <EditText
+        android:id="@+id/second_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex) 2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="연산자 입력"/>
+    <EditText
+        android:id="@+id/operator_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex) +, -, *, / ..."/>
+    <Button
+        android:id="@+id/result_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="계산하기"/>
+
+</LinearLayout>
